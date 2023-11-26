@@ -1,6 +1,6 @@
 <div class="container">
     <a class="navbar-brand" href="/">
-    <img class="img-fluid" src="{{ asset('bootstrap5-plain-assets/logos/plainb-logo.svg') }}" alt="" width="96px">
+    <img class="img-fluid" src="{{ asset('bootstrap5-plain-assets/logos/images.png') }}" alt="" width="96px">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav06" aria-controls="nav06" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
