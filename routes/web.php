@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,4 +36,6 @@ Route::get('/aboutme', function(){
  Route::get('/contact', function(){
     return view('pages.contact');
  });
+
+ Route::post('/contact', [PortfolioController::class, 'contactus']);
  

@@ -25,6 +25,6 @@
   </div>
   <div class="mb-5"></div>
   <div class="container">
-    <p class="text-center">All rights reserved © Wireframes Corporation {{ date('Y') }}.</p>
+    <p class="text-center">All rights reserved © Skills Portfolio {{ date('Y') }}.</p>
   </div>
   <script src="{{ asset('js/bootstrap/bootstrap.bundle.min.js') }}"></script>
